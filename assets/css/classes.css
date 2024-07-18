@@ -7,8 +7,8 @@
 }
 
 .carousel-img{
-  height: 70%;
-  width: 70%;
+  height: 90%;
+  width: 90%;
 }
 
 /* .carousel-control-next-icon, .carousel-control-prev {
@@ -26,7 +26,9 @@
 .carousel-inner {
   width: 90%;
   margin: auto;
-  margin-inline: 10%;
+  margin-inline: 6%;
+  overflow: hidden;
+  overflow-x: auto;
 }
 
 
