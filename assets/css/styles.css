@@ -69,20 +69,23 @@
   transform: rotate(5deg);
 }
 
-.gallery-img {
-  width: 100%;
-  max-width: 36rem;
-  max-height: 36rem;
+.gallery {
+  padding: 2rem;
+}
+
+.carousel-container {
   overflow: hidden;
+  border-radius: 8px;
 }
 
-.gallery-img img {
-  transition: all 300ms ease-in-out;
+.carousel-inner .carousel-item {
+  transition: transform 0.5s ease;
 }
 
-.gallery-img img:hover {
-  transform: translate(-3%, 3%) scale(1.2) rotate(5deg);
+.carousel-inner .carousel-item img {
+  border-radius: 8px;
 }
+
 
 .contact-form {
   grid-column: span 2;

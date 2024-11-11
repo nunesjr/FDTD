@@ -62,56 +62,43 @@
   </section>
 
   <!-- Carrossel de parceiros -->
-  <section id="gallery" class="grid-one white-bg section">
-    <div class="main-content grid-one-content">
-      <h2 class="grid-main-heading">Parceiros</h2>
-      <p class="grid-description">Alguns de nossos parceiros.</p>
-
-      <div class="container mt-5">
-        <div id="imageCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <div class="row justify-content-center">
-                <div class="col-4">
-                  <img class="carousel-img d-block w-100" src="assets/img/cliente1.png" alt="Parceiro 1">
-                </div>
-                <div class="col-4">
-                  <img class="carousel-img d-block w-100" src="assets/img/cliente2.png" alt="Parceiro 2">
-                </div>
-                <div class="col-4">
-                  <img class="carousel-img d-block w-100" src="assets/img/cliente3.png" alt="Parceiro 3">
-                </div>
+  <section id="gallery" class="gallery section">
+    <div class="carousel-container">
+      <div id="minimalCarousel" class="carousel slide" data-ride="carousel" data-interval="3000">
+        <div class="carousel-inner">
+          <!-- Primeiro conjunto de imagens -->
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col">
+                <img class="d-block w-100" src="assets/img/cliente1.png" alt="Parceiro 1">
               </div>
-            </div>
-            
-            <div class="carousel-item">
-              <div class="row justify-content-center">
-                <div class="col-4">
-                  <img class="carousel-img d-block w-100" src="assets/img/cliente4.png" alt="Parceiro 4">
-                </div>
-                <div class="col-4">
-                  <img class="carousel-img d-block w-100" src="assets/img/cliente5.jpeg" alt="Parceiro 5">
-                </div>
-                <div class="col-4">
-                  <img class="carousel-img d-block w-100" src="assets/img/cliente6.png" alt="Parceiro 6">
-                </div>
+              <div class="col">
+                <img class="d-block w-100" src="assets/img/cliente2.png" alt="Parceiro 2">
+              </div>
+              <div class="col">
+                <img class="d-block w-100" src="assets/img/cliente3.png" alt="Parceiro 3">
               </div>
             </div>
           </div>
-
-          <!-- Controles de navegação do carrossel -->
-          <a class="carousel-control-prev" href="#imageCarousel" role="button" data-slide="prev" aria-label="Anterior">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Anterior</span>
-          </a>
-          <a class="carousel-control-next" href="#imageCarousel" role="button" data-slide="next" aria-label="Próximo">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="sr-only">Próximo</span>
-          </a>
+          <!-- Segundo conjunto de imagens -->
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col">
+                <img class="d-block w-100" src="assets/img/cliente4.png" alt="Parceiro 4">
+              </div>
+              <div class="col">
+                <img class="d-block w-100" src="assets/img/cliente5.jpeg" alt="Parceiro 5">
+              </div>
+              <div class="col">
+                <img class="d-block w-100" src="assets/img/cliente6.png" alt="Parceiro 6">
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </section>
+  
 
   <!-- Scripts necessários -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
