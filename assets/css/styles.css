@@ -84,6 +84,8 @@
 
 .carousel-inner .carousel-item img {
   border-radius: 8px;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 
